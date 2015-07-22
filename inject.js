@@ -10,6 +10,6 @@
 		var style = "style='padding: 5px; border: 1px solid #95c97e;'";
 		var strong = "<strong " + style + ">" + message + "</strong>";
 		var div = "<div style='text-align: right;'>" + strong + "</div>";
-		merge.innerHTML += div;
+		mergeArea.innerHTML += div;
 	}
 })()
