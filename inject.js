@@ -9,7 +9,7 @@
 		var message = "Don’t forget to squash!";
 		var style = "style='padding: 5px; border: 1px solid #95c97e;'";
 		var strong = "<strong " + style + ">" + message + "</strong>";
-		var div = "<div style='text-align: right;'>" + strong + "</div>";
+		var div = "<div style='margin-left: 64px;'>" + strong + "</div>";
 		mergeArea.innerHTML += div;
 	}
 })()
