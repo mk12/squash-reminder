@@ -16,7 +16,7 @@
 		"<span class='octicon octicon-x'></span>" +
 	      "</div>" +
 	      "<h4 class='status-heading'>Don't forget to squash your commits</h4>" +
-		"<span class='status-meta'><code>git rebase -i</code> on the commandline</span>" +
+		"<span class='status-meta'><code>git rebase -i</code> on the command line</span>" +
 	    "</div>";
 	  mergeArea.innerHTML = out + mergeArea.innerHTML;
 	}
